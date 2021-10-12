@@ -1,0 +1,48 @@
+{
+  "name": "PiTwin3",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "courzelo": "npm start --prefix courzelo",
+    "courzeloinstall": "npm install --prefix courzelo",
+    "dev": "concurrently \"npm run server\" \"npm run courzelo\""
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "antd": "^4.15.2",
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.25.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "googleapis": "^61.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.4.14",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "autoprefixer": "^9.8.6",
+    "concurrently": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hazem-Cherif/PiTwin3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hazem-Cherif/PiTwin3/issues"
+  },
+  "homepage": "https://github.com/Hazem-Cherif/PiTwin3#readme"
+}

@@ -1,0 +1,11 @@
+.sidebar {
+       
+    top: 0px;
+  }
+
+  .logoimg {
+    width: 180px;
+    height: 95px;
+    display: flex;
+  }
+ 

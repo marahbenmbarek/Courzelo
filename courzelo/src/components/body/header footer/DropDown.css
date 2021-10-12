@@ -1,0 +1,100 @@
+li.navBarRec  {
+   margin-top: -6px !important; 
+   margin-right: 20px !important;
+}
+
+.navBarRec span{
+    display: none !important;
+}
+.action
+{
+    position: fixed;
+    top: 1px;
+    right: 220px;
+    
+    
+}
+.action .prof 
+{
+    position: relative;
+    width: 90px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: visible;
+    cursor: pointer;
+}
+.action .prof img
+{
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.action .menu 
+{
+    position: relative;
+    top: -70px;
+    right: -10px;
+    padding: 10px 20px;
+    background: #fff;
+    width: 200px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: 0.5;
+}
+
+.action .menu::before
+{
+    content: '';
+    position: absolute;
+    top: -3px;
+    right: 170px;
+    width: 20px;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+.action .menu ul li
+{
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    direction: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.action .menu ul li a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+
+.posi
+{
+    position: fixed;
+    top:  20px;
+    right: 40px;
+}
+
+.posiLogOut
+{
+    position: fixed;
+    top:  18px;
+    right: 40px;
+}
+
+.textSign{
+    width: 130px !important;
+    padding-bottom: 16px;
+}
+
+.navbarHeight{
+    height: 56px;
+}
